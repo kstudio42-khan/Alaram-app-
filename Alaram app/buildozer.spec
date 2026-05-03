@@ -6,7 +6,8 @@ package.domain = org.test
 source.dir = .
 source.include_exts = py
 
-requirements = python3
+source.include_exts = py,mp3
+android.permissions = VIBRATE
 
 orientation = portrait
 
