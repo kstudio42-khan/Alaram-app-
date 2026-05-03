@@ -12,7 +12,10 @@ jobs:
       - name: Install dependencies
         run: |
           sudo apt update
-          sudo apt install -y zip unzip openjdk-17 python3-pip
+sudo apt install -y zip unzip python3-pip
+
+# Install Java properly
+sudo apt install -y default-jdk
           pip install buildozer
 
       - name: Build APK
